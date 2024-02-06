@@ -11,7 +11,7 @@ Version Control: Utilized Git for version control, enabling collaboration and tr
 Latency Reduction: Implemented Elastic Load Balancer (ELB) for a 30% reduction in latency, improving user experience and performance.
 Data Management Optimization: Optimized data management with S3 for improved accessibility and efficiency, ensuring seamless access to resources.
 
-# Let's Get Started...
+# Let's Get Started
 
 _Using Terraform_
 
@@ -30,6 +30,10 @@ _Using Docker_
 - Write Dockerfile: Create a Dockerfile with instructions for building your Docker image.
 - Build Docker Image: Use Docker CLI to build your image from the Dockerfile.
 - Run Docker Container: Start a container using the built image.
+
+_Clarification on Docker Usage_
+
+Docker is being used in this project to containerize the café website application. Containerization with Docker allows us to encapsulate the application and its dependencies into lightweight, portable containers. This not only ensures consistency across different environments but also simplifies the deployment process. By complementing Terraform's infrastructure orchestration capabilities, Docker helps streamline the deployment process further by providing a standardized environment for running the application.
 
 _Accessing the Website_
 
